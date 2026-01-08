@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   background: {
     flex: 1,
     justifyContent: "center",
-    borderTopWidth : ,
+    borderTopWidth : 2,
     width: "100%",
     height: Dimensions.get("window").height,
   },
