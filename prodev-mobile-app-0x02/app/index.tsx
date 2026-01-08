@@ -17,8 +17,8 @@ export default function Index() {
 
             <View style={styles.textGroup}>
               <Text style={styles.textLarge}>Find your favorite place here</Text>
-              <Text style={{ ...styles.textSmall, fontSize: 16 }}>The best prices for over 2 million properties worldwide </Text>
-              {/* <Text style={styles.textSmall}>million properties worldwide</Text> */}
+              <Text style={{ ...styles.textSmall, fontSize: 16 }}>The best prices for over 2</Text>
+              <Text style={styles.textSmall}>million properties worldwide</Text>
             </View>
 
             <View style={{ position: "absolute", bottom: 0, width: "100%" }}>
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   background: {
     flex: 1,
     justifyContent: "center",
-    borderTopWidth : 2,
+    borderTopWidth: 2,
     width: "100%",
     height: Dimensions.get("window").height,
   },
